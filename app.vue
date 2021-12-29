@@ -2,7 +2,7 @@
   <div>
     <el-button type="primary" @click="handleClick">打开弹窗</el-button>
     <eve-dialog-base title="标" v-if="visible" @close="visible = false">
-      <div>弹框</div>
+      <div>弹</div>
     </eve-dialog-base>
   </div>
 </template>
